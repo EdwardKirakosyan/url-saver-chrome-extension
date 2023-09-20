@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 10px;
@@ -8,6 +12,7 @@ body {
 
 input {
   width: 100%;
+  font-weight: 600;
   padding: 10px;
   box-sizing: border-box;
   border: 1px solid #5f9341;
@@ -15,10 +20,13 @@ input {
 }
 
 button {
+  cursor: pointer;
   background: #5f9341;
   color: white;
+  margin: 5px;
   padding: 10px 20px;
   border: 1px solid #5f9341;
+  border-radius: 3px;
   font-weight: bold;
 }
 
@@ -29,7 +37,7 @@ button:hover {
 #delete-btn {
   background: white;
   color: darkred;
-  border: 2px solid darkred;
+  border: 1px solid darkred;
 }
 
 #delete-btn:hover {
